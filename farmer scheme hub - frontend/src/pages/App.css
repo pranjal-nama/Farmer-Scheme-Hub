@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 60px;
+  padding: 0 10px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 3;
+}
+
+.right ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.right ul li {
+  margin: 0 25px;
+  list-style: none;
+}
+
+.photo h1 {
+  font-size: 5rem;
+  font-weight: 500;
+  position: absolute;
+  top: 120px;
+  left: 75px;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+/* 
+.right button {
+  padding: 10px 25px;
+  border: 2px solid black;
+} */
+
+.left h2 {
+  position: relative;
+  top: 316px;
+  left: 80px;
+  font-size: 40px;
+}
+
+.content {
+  padding: 10px 75px;
+}
+
+.content h3 {
+  /* color: #4785ac; */
+  color: black;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content li {
+  color: black;
+}
+
+
+.more_btn_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: .5rem;
+  background-color: #d3d3d3;
+  color: black;
+  height: 3rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

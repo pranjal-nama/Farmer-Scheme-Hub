@@ -7,5 +7,5 @@ import com.farmerscheme.farmerscheme.entities.Scheme;
 
 @Repository
 public interface SchemeDao extends JpaRepository<Scheme, Long> {
-	//public Scheme findById(long schemeId);
+	
 }

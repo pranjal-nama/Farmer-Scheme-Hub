@@ -1,6 +1,7 @@
 package com.farmerscheme.farmerscheme.services;
 
-import java.util.List; 
+import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -19,8 +20,8 @@ public class SchemeService {
 		return list;
 	}
 
-	public Scheme getScheme(long schemeId) {
-		Scheme s = null;
+	public Optional<Scheme> getScheme(long schemeId) {
+		Optional<Scheme> s = null;
 		try {
 			s = this.SchemeDao.findById(schemeId);
 		}
